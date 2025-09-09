@@ -4,7 +4,7 @@
   "description": "backbone for xhunter app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "xhunter-server"
@@ -13,7 +13,6 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.19",
     "socket.io": "^4.5.1"
   },
   "engines": {
